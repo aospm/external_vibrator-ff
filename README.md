@@ -42,11 +42,12 @@ In your devices `manifest.xml` add
 
 Ensure your `sepolicy/file_contexts` contains the following:
 ```sh
-/dev/input/.*		u:object_r:input_device:s0
+/dev/input/.*							u:object_r:input_device:s0
+/vendor/bin/hw/android.hardware.vibrator@1.1-service.ff		u:object_r:hal_vibrator_default_exec:s0
 ```
 
 Then create a new file `sepolicy/hal_vibrator.te` with the following contents:
-```
+```t
 # Vibrator HAL scans input devices to find the haptics device
 # it then calls ioctls on it.
 init_daemon_domain(hal_vibrator_default);
