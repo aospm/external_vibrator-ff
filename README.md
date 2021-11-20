@@ -11,6 +11,9 @@ On start-up it scans all input devices and picks the first device which supports
 
 If there are no FF input devices available, it will stub the behaviour rather than fail as failing will cause Android to get stuck and refuse to boot.
 
+This HAL is originally based on the downstream Pixel 3 XL (Crosshatch) haptics HAL, although almost all of the code has been changed.
+https://github.com/GrapheneOS/device_google_crosshatch/tree/c7f62a539b6cb4685348fbd747605cbfabf1b94d/vibrator
+
 ## Integrating this HAL
 
 The HAL is quite straightforwar to integrate into your device. Ensure the HAL is cloned in your manifests:

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2021 Caleb Connolly <caleb.connolly@linaro.org>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,10 +13,6 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
-
-/* Adapted from Crosshatch downstream:
- * https://github.com/GrapheneOS/device_google_crosshatch/blob/c7f62a539b6cb4685348fbd747605cbfabf1b94d/vibrator/Vibrator.cpp
  */
 
 #define LOG_TAG "VibratorService"

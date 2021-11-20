@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2021 Caleb Connolly <caleb.connolly@linaro.org>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
